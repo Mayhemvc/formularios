@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document_form</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <section>
+   <form action="#" method="get" target="_blank" autocomplete="off">
+            <h1>Jorge</h1>
+            <p>O Formulario</p>
+
+            <fieldset>
+                <legend>Informações Pessoais</legend>
+                <p>
+                    <input type="text">
+                </p>
+            </fieldset>
+   </form>
+   </section>
+</body>
+</html>
