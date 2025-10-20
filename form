@@ -12,6 +12,8 @@
     </style>
 </head>
 <body>
+
+    <p>Formulário de Cadastro</p>
     <section>
    <form action="#" method="get" target="_blank" autocomplete="off">
             <h1>Jorge</h1>
