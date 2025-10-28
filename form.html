@@ -13,6 +13,7 @@
         label {
             cursor: pointer;
         }
+
     </style>
 </head>
 <body>
@@ -90,6 +91,57 @@
                     <button type="reset">Limpar</button>
                     <button type="submit">Enviar</button>
                 </p>
+
+                <p>
+                    <label for="password">Sua senha:</label>
+                    <input type="password" id="password" name="password"
+                    placeholder="Digite a senha">
+                </p>
+
+                <p>
+                    <label for="range">Range:</label>
+                    <input type="range" id="range" name="range"
+                    min="0" max="10" step="2" list="datalist">
+
+                    <datalist id="datalist">
+                        <option value="0">
+                        <option value="2">
+                        <option value="4">
+                        <option value="6">
+                        <option value="8">
+                        <option value="10" label="100%"></option>
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="url">Sua URL:</label>
+                    <input type="url" id="url" name="url"
+                    placeholder="Digite a URL">
+                </p>
+
+                <p>
+                    <label for="search">Sua busca:</label>
+                    <input type="search" id="search" name="search"
+                    placeholder="Digite a busca">
+                </p>
+
+                <p>
+                    <label for="select">Selecione uma opção:</label>
+                    <select id="select" name="select">
+                        <optgroup label="Teste">
+                        <option value="1" label="valor 1"></option>
+                        <option value="2" label="valor 2"></option>
+                        <option value="3" label="valor 3"></option>
+                        </optgroup>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="textarea">Sua area:</label>
+                    <textarea id="textarea" rows="4" name="textarea"
+                    placeholder="Digite a area">Qualquer coisa digitada</textarea>
+                </p>
+
             </fieldset>
    </form>
    </section>
